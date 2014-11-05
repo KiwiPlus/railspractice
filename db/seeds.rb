@@ -5,12 +5,12 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
-Location.create name: 'mastrop'
-Location.create email: 'piero@quenun.ca'
-Location.create zip: '22222'
-Location.create name: 'holycow'
-Location.create email: 'hol@ee.cow'
-Location.create zip: '3456789'
-Location.create name: 'ronnie'
-Location.create email: 'theronnie@hotbot.com'
-Location.create zip: '420685'
+location=Location.create name: 'mastrop'
+location1=Location.create email: 'piero@quenun.ca'
+locations2=Location.create zip: '22222'
+location3=Location.create name: 'holycow'
+location4=Location.create email: 'hol@ee.cow'
+location5=Location.create zip: '3456789'
+location6=Location.create name: 'ronnie'
+location7=Location.create email: 'theronnie@hotbot.com'
+location8=Location.create zip: '420685'

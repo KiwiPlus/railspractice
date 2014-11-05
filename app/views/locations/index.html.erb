@@ -3,7 +3,11 @@
 <ul>
 			<%	@locations.each do |location| %>
 	<li>
-			<%= location.name %>
+			<% if location.name.present? %>
+			<%= location.name %> 
+			<% end %>
+		<p>	<%= location.email %></p>
+			<p><%= location.zip %></p>
 	</li>
 			<% end %>
 </ul>
