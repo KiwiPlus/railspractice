@@ -18,9 +18,7 @@ ActiveRecord::Schema.define(version: 20141105104051) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.string   "email"
-    t.string   "city"
     t.integer  "zip"
-    t.text     "desc"
   end
 
 end
